@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.hi {
+    @apply font-bold text-4xl drop-shadow-[0_2pc_6px_rgba(255,0,0,0.8)] rounded-xl;
+}
+
+.div {
+    @apply bg-gray-600 bg-cover min-h-screen max-w-screen items-center flex justify-center;
+}

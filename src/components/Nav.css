@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+@tailwind utilities;
+
+.nav {
+    @apply fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-md py-4;
+  }
+  
+.ul {
+    @apply flex justify-center space-x-8 text-white font-semibold text-lg;
+}
+
+.li {
+    @apply hover:scale-105 transition-transform text-white;
+}
+
+.homes {
+    @apply cursor-pointer;
+}
+
+.dropdown {
+    @apply absolute hidden group-hover:block bg-black/70 text-white p-2 rounded shadow-md space-y-2 top-full left-0;
+}

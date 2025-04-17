@@ -1,0 +1,73 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+.Background {
+    @apply absolute inset-0 -z-10 bg-cover bg-center;
+  }
+  .div3 {
+    @apply relative min-h-screen w-full overflow-hidden;
+  }
+  
+  .Overlay {
+    @apply w-full h-full absolute inset-0;
+  }
+  
+  .Karina {
+    @apply relative flex items-center justify-center w-full h-screen overflow-hidden flex-col text-white pt-24 z-10;
+  }
+  
+  .div {
+    @apply text-center max-w-xl;
+  }
+  
+  .h1 {
+    @apply text-4xl font-bold mb-2 text-black;
+  }
+  
+  .p {
+    @apply text-lg font-bold text-black;
+  }
+  
+  .Headshot {
+    @apply flex w-55 h-55 rounded-full object-cover border-4 border-white shadow-lg ml-5 mb-4 md:mb-8;
+  }
+  
+  .motion {
+    @apply absolute bottom-0 left-0 right-0 z-20 bg-white shadow-lg rounded-t-3xl py-6 px-4 md:px-8;
+  }
+
+  .h2 {
+    @apply text-center font-bold text-xl text-gray-800 mb-2;
+  }
+  
+  .ul {
+    @apply text-gray-600 text-center space-y-1;
+  }
+
+  .animated {
+    @apply w-full max-w-sm font-bold text-center;
+  }
+
+  .section2 {
+    @apply w-full min-h-screen bg-gradient-to-r from-pink-400 via-white to-blue-300 shadow-lg text-black flex items-center justify-center;
+  }
+
+  .heading2 {
+    @apply text-3xl font-bold;
+  }
+
+  .contactcard {
+    @apply rounded-xl p-[2px] bg-gradient-to-r from-pink-400 via-white to-blue-300 shadow-lg;
+  }
+
+  .insidecontcard {
+    @apply bg-white rounded-xl p-4;
+  }
+
+  .contactname {
+    @apply font-bold text-lg text-gray-800 mb-2;
+  }
+
+  .contactinfo {
+    @apply text-gray-700;
+  }
