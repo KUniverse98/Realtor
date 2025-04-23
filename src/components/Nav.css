@@ -2,15 +2,15 @@
 @tailwind utilities;
 
 .nav {
-    @apply fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-md py-4;
+    @apply fixed top-0 left-0 w-full z-50 bg-black/30 backdrop-blur-md py-1;
   }
   
 .ul {
-    @apply flex justify-center space-x-8 text-white font-semibold text-lg;
+    @apply flex justify-center space-x-8 text-white font-semibold mt-3 text-2xl;
 }
 
 .li {
-    @apply hover:scale-105 transition-transform text-white;
+    @apply hover:scale-105 hover:text-gray-400 transition transition-transform text-white;
 }
 
 .homes {
